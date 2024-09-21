@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to Tic-Tac-Toe!</h1>
-    <p>Play the game and test your skills against an AI opponent!</p>
-    <a href="game_files/index.html">Play the game</a>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#play">Play Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cover Section -->
+    <section id="cover">
+        <img src="cover-image.jpg" alt="Tic-Tac-Toe Cover" class="cover-image">
+        <div class="intro-text">
+            <h1>Tic-Tac-Toe</h1>
+            <p>A fun and strategic game for everyone!</p>
+            <a href="#play" class="play-button">Play Tic-Tac-Toe Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About the Game</h2>
+        <p>
+            Tic-Tac-Toe is a simple and engaging game where you can challenge yourself or your friends. 
+            It's a perfect blend of strategy and fun. Whether you're a novice or a seasoned player, this game is for everyone!
+        </p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Game Features</h2>
+        <ul>
+            <li>Play against the AI or a friend</li>
+            <li>Smart AI using Minimax algorithm for an optimal challenge</li>
+            <li>Simple and intuitive interface</li>
+        </ul>
+    </section>
+
+    <!-- Play Section -->
+    <section id="play">
+        <h2>Start Playing!</h2>
+        <a href="game_files/index.html" class="play-button">Play Tic-Tac-Toe</a>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 </html>
