@@ -31,6 +31,29 @@ function checkWin() {
     return null;
 }
 
+// AI move logic using a simple strategy
+function aiMove() {
+    if (gameOver) return;
+    
+    // AI picks the first available spot (simple AI logic)
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+            if (board[i][j] === "") {
+                board[i][j] = "O";
+                document.getElementById(`cell-${i}-${j}`).textContent = "O";
+                
+                // Check for win/draw after AI move
+                let result = checkWin();
+                if (result) {
+                    document.getElementById("status").textContent = result === "Draw" ? "It's a draw!" : `Player ${result} wins!`;
+                    gameOver = true;
+                }
+                return; // AI makes only one move
+            }
+        }
+    }
+}
+
 // Function to handle user moves
 function handleMove(row, col) {
     if (board[row][col] === "" && !gameOver) {
@@ -39,10 +62,15 @@ function handleMove(row, col) {
 
         let result = checkWin();
         if (result) {
-            document.getElementById("status").textContent = result === "Draw" ? "It's a draw!" : `${result} wins!`;
+            document.getElementById("status").textContent = result === "Draw" ? "It's a draw!" : `Player ${result} wins!`;
             gameOver = true;
         } else {
+            // Switch to AI's turn
             currentPlayer = currentPlayer === "X" ? "O" : "X";
+            if (currentPlayer === "O") {
+                aiMove();
+                currentPlayer = "X"; // Switch back to player after AI move
+            }
         }
     }
 }
