@@ -1,34 +1,39 @@
+/* Style for the body of the page */
 body {
-    text-align: center;
-    font-family: Arial, sans-serif;
+    text-align: center; /* Center all text content */
+    font-family: Arial, sans-serif; /* Set the default font for the page */
 }
 
+/* Style for the game board container */
 #game-board {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 5px;
-    margin: 20px auto;
+    display: grid; /* Use CSS grid layout to organize the game board */
+    grid-template-columns: repeat(3, 100px); /* Create 3 columns, each 100px wide */
+    grid-template-rows: repeat(3, 100px); /* Create 3 rows, each 100px tall */
+    gap: 5px; /* Set the gap between cells */
+    margin: 20px auto; /* Add margin and center the game board */
 }
 
+/* Style for each cell in the game board */
 .cell {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0f0f0;
-    font-size: 2rem;
-    cursor: pointer;
+    width: 100px; /* Each cell is 100px wide */
+    height: 100px; /* Each cell is 100px tall */
+    display: flex; /* Use flexbox to center the content inside the cells */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    background-color: #f0f0f0; /* Light grey background for the cells */
+    font-size: 2rem; /* Set the font size for the symbols (X or O) */
+    cursor: pointer; /* Change cursor to pointer when hovering over cells */
 }
 
+/* Style for the reset button */
 #reset-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 1rem;
+    margin-top: 20px; /* Add margin above the button */
+    padding: 10px 20px; /* Set padding for the button */
+    font-size: 1rem; /* Set the font size of the button text */
 }
 
+/* Style for the status text */
 #status {
-    margin-top: 20px;
-    font-size: 1.2rem;
+    margin-top: 20px; /* Add margin above the status message */
+    font-size: 1.2rem; /* Set the font size of the status text */
 }
