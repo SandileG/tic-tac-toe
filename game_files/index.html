@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Specifies character encoding and viewport settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
     <title>Tic-Tac-Toe Game</title>
+    <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Main title of the game -->
     <h1>Tic-Tac-Toe</h1>
+
+    <!-- Game board where each div represents a cell in the Tic-Tac-Toe grid -->
     <div id="game-board">
+        <!-- Row 1 cells -->
         <div class="cell" id="cell-0-0"></div>
         <div class="cell" id="cell-0-1"></div>
         <div class="cell" id="cell-0-2"></div>
+        <!-- Row 2 cells -->
         <div class="cell" id="cell-1-0"></div>
         <div class="cell" id="cell-1-1"></div>
         <div class="cell" id="cell-1-2"></div>
+        <!-- Row 3 cells -->
         <div class="cell" id="cell-2-0"></div>
         <div class="cell" id="cell-2-1"></div>
         <div class="cell" id="cell-2-2"></div>
     </div>
+
+    <!-- Button to reset the game -->
     <button id="reset-button">Reset Game</button>
+
+    <!-- Area to display game status, such as who wins or if it's a draw -->
     <p id="status"></p>
+
+    <!-- Link to the external JavaScript file where game logic is written -->
     <script src="app.js"></script>
 </body>
+
 </html>
