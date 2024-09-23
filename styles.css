@@ -1,4 +1,4 @@
-/* Basic reset */
+/* Basic reset for consistent styling across browsers */
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -6,162 +6,161 @@ body, h1, h2, p, ul {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: Arial, sans-serif; /* Use a clean, sans-serif font */
+    text-align: center; /* Center-align the text on the page */
 }
 
 /* Header Section */
 header {
-    background-color: #333;
-    padding: 20px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    background-color: #333; /* Dark background for the header */
+    padding: 20px 0; /* Vertical padding for the header */
+    position: sticky; /* Sticky header that stays at the top while scrolling */
+    top: 0; /* Sticks the header at the top of the page */
+    z-index: 1000; /* Ensures the header stays on top of other elements */
 }
 
 header nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+    list-style-type: none; /* Removes bullet points from the list */
+    display: flex; /* Aligns list items horizontally */
+    justify-content: center; /* Centers the navigation items */
 }
 
 header nav ul li {
-    margin: 0 20px;
+    margin: 0 20px; /* Spacing between navigation items */
 }
 
 header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
+    color: white; /* White text for navigation links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2rem; /* Increases font size for navigation links */
 }
 
 /* Cover Section */
 #cover {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
+    position: relative; /* Allows layering of content over the cover image */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Aligns content flexibly */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    background-color: #f4f4f4; /* Light gray background */
 }
 
 .cover-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
+    width: 100%; /* Full-width image */
+    height: 100%; /* Full-height image */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    position: absolute; /* Positions the image absolutely within the section */
+    top: 0; 
     left: 0;
-    z-index: -1;
-    opacity: 0.7;
+    z-index: -1; /* Sends the image behind the text */
+    opacity: 0.7; /* Adds transparency to the image */
 }
 
 .intro-text {
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    color: white; /* White text over the cover image */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adds shadow for better readability */
 }
 
 .intro-text h1 {
-    font-size: 4rem;
-    margin-bottom: 10px;
+    font-size: 4rem; /* Large title font size */
+    margin-bottom: 10px; /* Space below the title */
 }
 
 .intro-text p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    font-size: 1.5rem; /* Medium-sized text */
+    margin-bottom: 20px; /* Space below the paragraph */
 }
 
 .play-button {
-    padding: 15px 30px;
-    background-color: #ff6347;
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    padding: 15px 30px; /* Adds padding to the button */
+    background-color: #ff6347; /* Button color (tomato) */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    font-size: 1.2rem; /* Button text size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
 }
 
 .play-button:hover {
-    background-color: #ff4500;
+    background-color: #ff4500; /* Darker color on hover */
 }
 
-/* About Section */
+/* About, Features, and Play Sections */
 #about, #features, #play {
-    padding: 50px 20px;
+    padding: 50px 20px; /* Padding for sections */
 }
 
 #about {
-    background-color: #fafafa;
+    background-color: #fafafa; /* Light gray background */
 }
 
 #features {
-    background-color: #f0f0f0;
+    background-color: #f0f0f0; /* Slightly darker gray */
 }
 
-/* Play Section */
 #play {
-    background-color: #fff;
+    background-color: #fff; /* White background */
 }
 
 #play .play-button {
-    background-color: #008CBA;
-    color: white;
+    background-color: #008CBA; /* Blue button for the play section */
+    color: white; /* White text */
 }
 
 #play .play-button:hover {
-    background-color: #005f6b;
+    background-color: #005f6b; /* Darker blue on hover */
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 2rem; /* Section title font size */
+    margin-bottom: 20px; /* Space below the title */
 }
 
 p, ul {
-    font-size: 1.1rem;
-    max-width: 800px;
-    margin: 0 auto 30px;
+    font-size: 1.1rem; /* Medium font size for paragraphs and lists */
+    max-width: 800px; /* Limits the width of text */
+    margin: 0 auto 30px; /* Centers the text and adds spacing */
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    text-align: left;
+    list-style-type: disc; /* Bullet points for list items */
+    padding-left: 20px; /* Indentation for list */
+    text-align: left; /* Left-align the text */
 }
 
 /* Features Section */
 #features {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-    text-align: center;
+    padding: 50px 0; /* Padding for top and bottom */
+    background-color: #f8f8f8; /* Very light gray background */
+    text-align: center; /* Center the text in this section */
 }
 
 #features h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    font-size: 2.5em; /* Larger font size for the section title */
+    margin-bottom: 20px; /* Space below the title */
 }
 
 .feature {
-    display: inline-block;
-    margin: 20px;
-    width: 250px;
-    text-align: center;
+    display: inline-block; /* Display each feature block inline */
+    margin: 20px; /* Adds space between feature blocks */
+    width: 250px; /* Fixed width for each feature block */
+    text-align: center; /* Center-align the text within each block */
 }
 
 .feature img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Makes the image take full width of the container */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Rounds the corners of images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for image */
 }
 
 .feature h3 {
-    font-size: 1.5em;
-    margin-top: 15px;
+    font-size: 1.5em; /* Medium font size for feature title */
+    margin-top: 15px; /* Adds space above the title */
 }
 
 .feature p {
-    font-size: 1em;
-    color: #666;
-    margin-top: 10px;
+    font-size: 1em; /* Regular size for feature description */
+    color: #666; /* Gray text color */
+    margin-top: 10px; /* Adds space above the paragraph */
 }
