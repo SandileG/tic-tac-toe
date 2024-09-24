@@ -8,7 +8,7 @@ This is a web-based Tic-Tac-Toe game where you can play against either another p
 
 The Tic-Tac-Toe game is designed as a classic 3x3 grid-based game where two players (or one player and an AI) take turns marking the spaces with either "X" or "O". The first player to align three marks in a row (horizontally, vertically, or diagonally) wins the game. This project showcases not only basic front-end development but also an AI opponent powered by the Minimax algorithm for strategic moves.
 
-- **[Live Demo](https://example.com)** - Play the deployed version of Tic-Tac-Toe.
+- **[Live Demo](https://sandileg.github.io/tic-tac-toe/#play)** - Play the deployed version of Tic-Tac-Toe.
 - **[Project Blog Article](https://exampleblog.com/tic-tac-toe)** - Insights and learning from building this project.
 - **[Author LinkedIn](https://www.linkedin.com/in/sandileg/)** - Connect with the project creator.
 
