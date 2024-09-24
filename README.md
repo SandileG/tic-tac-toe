@@ -2,7 +2,7 @@
 
 This is a web-based Tic-Tac-Toe game where you can play against either another person or an AI opponent. Built using HTML, CSS, and JavaScript, the game offers a simple, yet strategic gameplay experience with a clean and intuitive interface.
 
-![Tic-Tac-Toe Screenshot](images/screenshot.jpg)
+![Tic-Tac-Toe Screenshot](https://github.com/SandileG/tic-tac-toe/blob/ff7c87c61216f263eaf51a8303690adea426bc6a/images/tic%20tac%20toe.jpg)
 
 ## Introduction
 
