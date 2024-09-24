@@ -28,7 +28,7 @@ To run the project locally, follow these steps:
 
 3. Open the `index.html` file in your web browser.
 
-Alternatively, you can simply visit the live site [here](https://example.com) to start playing immediately.
+Alternatively, you can simply visit the live site [here](https://sandileg.github.io/tic-tac-toe/#play) to start playing immediately.
 
 ## Usage
 
@@ -61,15 +61,6 @@ Contributions are welcome! If you'd like to make improvements to this project, p
    ```
 5. Open a Pull Request and describe the changes you made.
 
-## Related Projects
-
-- [Snake Game](https://github.com/SandileG/snake-game) - Another classic game built using web technologies.
-- [Connect Four](https://github.com/SandileG/connect-four) - A web-based version of the Connect Four game.
-
 ## Licensing
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This version includes a project introduction, installation steps, usage instructions, links to related projects, and complies with the guidelines. Be sure to replace placeholder links (for the live demo, blog article, etc.) with the actual links for your project.
