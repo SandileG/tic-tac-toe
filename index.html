@@ -1,106 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> <!-- Defines the character set -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive -->
-    <title>Tic-Tac-Toe Game</title> <!-- Title displayed on the browser tab -->
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <!-- Linking external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Header Section -->
+    <!-- Header Section: Sticky navigation bar with links to sections -->
     <header>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li> <!-- Link to the "About" section -->
-                <li><a href="#features">Features</a></li> <!-- Link to the "Features" section -->
-                <li><a href="#play">Play Now</a></li> <!-- Link to the "Play" section -->
+                <!-- Link to "About" section -->
+                <li><a href="#about">About</a></li>
+                <!-- Link to "Features" section -->
+                <li><a href="#features">Features</a></li>
+                <!-- Link to "Play" section -->
+                <li><a href="#play">Play Now</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Cover Section: Introduction to the game with a cover image and a play button -->
+    <!-- Cover Section: Full-page intro section with a background image and title -->
     <section id="cover">
-        <img src="cover-image.jpg" alt="Tic-Tac-Toe Cover" class="cover-image"> <!-- Cover image for the landing page -->
+        <!-- Background cover image for the landing page -->
+        <img src="cover-image.jpg" alt="Tic-Tac-Toe Cover" class="cover-image">
         <div class="intro-text">
-            <h1>Tic-Tac-Toe</h1> <!-- Game title -->
-            <p>A fun and strategic game for everyone!</p> <!-- Brief game description -->
-            <a href="#play" class="play-button">Play Tic-Tac-Toe Now</a> <!-- Button linking to the "Play" section -->
+            <!-- Main title for the game -->
+            <h1>Tic-Tac-Toe</h1>
+            <!-- Brief description of the game -->
+            <p>A fun and strategic game for everyone!</p>
+            <!-- Button that scrolls down to the Play section -->
+            <a href="#play" class="btn-primary">Play Tic-Tac-Toe Now</a>
         </div>
     </section>
 
-    <!-- About Section: Description of the game -->
+    <!-- About Section: Provides a brief overview of the game -->
     <section id="about">
         <h2>About the Game</h2>
         <p>
-            Tic-Tac-Toe is a simple and engaging game where you can challenge yourself or your friends. 
+            Tic-Tac-Toe is a simple and engaging game where you can challenge yourself or your friends.
             It's a perfect blend of strategy and fun. Whether you're a novice or a seasoned player, this game is for everyone!
         </p>
     </section>
 
-    <!-- Features Section: Highlights the key features of the game -->
+    <!-- Features Section: Describes the game's key features -->
     <section id="features">
         <h2>Key Features</h2>
-    
-        <!-- Feature 1: AI-Powered Gameplay -->
-        <div class="feature">
-            <img src="images/feature1.jpg" alt="Feature 1"> <!-- Image representing the feature -->
-            <h3>AI-Powered Gameplay</h3> <!-- Feature title -->
-            <p>Challenge a highly skilled AI opponent powered by the Minimax algorithm, ensuring optimal gameplay every time.</p> <!-- Feature description -->
-        </div>
-
-        <!-- Feature 2: Simple & Intuitive Interface -->
-        <div class="feature">
-            <img src="images/feature2.jpg" alt="Feature 2"> <!-- Image representing the feature -->
-            <h3>Simple & Intuitive Interface</h3> <!-- Feature title -->
-            <p>Play with ease using a minimalist and intuitive interface, designed for smooth, quick matches.</p> <!-- Feature description -->
-        </div>
-
-        <!-- Feature 3: Reset and Replay -->
-        <div class="feature">
-            <img src="images/feature3.jpg" alt="Feature 3"> <!-- Image representing the feature -->
-            <h3>Reset and Replay</h3> <!-- Feature title -->
-            <p>Easily reset and replay the game to improve your skills and strategies, with a single click of the reset button.</p> <!-- Feature description -->
+        <!-- Container for feature cards -->
+        <div class="features-container">
+            <!-- First feature: AI-powered gameplay -->
+            <div class="feature" data-feature="AI-Powered Gameplay">
+                <img src="images/feature1.jpg" alt="AI-Powered Gameplay">
+                <h3>AI-Powered Gameplay</h3>
+                <p>Challenge a highly skilled AI opponent powered by the Minimax algorithm, ensuring optimal gameplay every time.</p>
+            </div>
+            <!-- Second feature: Simple & intuitive interface -->
+            <div class="feature" data-feature="Simple & Intuitive Interface">
+                <img src="images/feature2.jpg" alt="Simple & Intuitive Interface">
+                <h3>Simple & Intuitive Interface</h3>
+                <p>Play with ease using a minimalist and intuitive interface, designed for smooth, quick matches.</p>
+            </div>
+            <!-- Third feature: Reset and replay functionality -->
+            <div class="feature" data-feature="Reset and Replay">
+                <img src="images/feature3.jpg" alt="Reset and Replay">
+                <h3>Reset and Replay</h3>
+                <p>Easily reset and replay the game to improve your skills and strategies, with a single click of the reset button.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Additional Features Section: Lists extra features of the game -->
-    <section id="features">
-        <h2>Game Features</h2>
-        <ul>
-            <li>Play against the AI or a friend</li> <!-- Feature: Multiple player options -->
-            <li>Smart AI using Minimax algorithm for an optimal challenge</li> <!-- Feature: AI intelligence -->
-            <li>Simple and intuitive interface</li> <!-- Feature: User-friendly design -->
-        </ul>
-    </section>
-
-    <!-- About Section: Personal story and project information -->
-    <section id="about">
+    <!-- About This Project Section: Describes the inspiration behind the project and provides a GitHub link -->
+    <section id="about-project">
         <h2>About This Project</h2>
         <p>
-            This project was inspired by my love for classic games and my desire to challenge myself by creating an AI that can optimally play Tic-Tac-Toe. The goal was to build something fun yet educational, where players can either compete with each other or against a computer opponent.
+            This project was inspired by my love for classic games and my desire to challenge myself by creating an AI that can optimally play Tic-Tac-Toe.
         </p>
         <p>
-            It also serves as a Portfolio Project for ALX, showcasing my skills in HTML, CSS, and JavaScript, along with the use of algorithms like Minimax. The project was built over a period of a few weeks, refining gameplay mechanics and user experience.
+            It also serves as a Portfolio Project for ALX, showcasing my skills in HTML, CSS, and JavaScript, along with the use of algorithms like Minimax.
         </p>
+        <!-- Link to the GitHub repository for the project -->
         <p>
-            If you'd like to check out the source code, you can visit the <a href="https://github.com/SandileG/tic-tac-toe" target="_blank">GitHub repository</a>.
+            If you'd like to check out the source code, visit the <a href="https://github.com/SandileG/tic-tac-toe" target="_blank">GitHub repository</a>.
         </p>
-        
-        <!-- Social Media and GitHub Links -->
+        <!-- Links to social media and developer profiles -->
         <h3>Connect with Me</h3>
         <ul>
-            <li><a href="https://github.com/SandileG" target="_blank">GitHub</a></li> <!-- Link to GitHub profile -->
+            <li><a href="https://github.com/SandileG" target="_blank">GitHub</a></li>
         </ul>
     </section>
 
-    <!-- Play Section: Directs users to start playing the game -->
+    <!-- Play Section: Link to the Tic-Tac-Toe game itself -->
     <section id="play">
         <h2>Start Playing!</h2>
-        <a href="game_files/index.html" class="play-button">Play Tic-Tac-Toe</a> <!-- Button linking to the game -->
+        <!-- Button to play the game, redirects to game files -->
+        <a href="game_files/index.html" class="btn-primary">Play Tic-Tac-Toe</a>
     </section>
 
-    <!-- Link to external JavaScript file -->
+    <!-- Linking the external JavaScript file -->
     <script src="app.js"></script>
 </body>
 </html>
