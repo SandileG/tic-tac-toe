@@ -10,7 +10,7 @@ The Tic-Tac-Toe game is designed as a classic 3x3 grid-based game where two play
 
 - **[Live Demo](https://sandileg.github.io/tic-tac-toe/#play)** - Play the deployed version of Tic-Tac-Toe.
 - **[Project Blog Article](https://exampleblog.com/tic-tac-toe)** - Insights and learning from building this project.
-- **[Author LinkedIn](https://www.linkedin.com/in/sandileg/)** - Connect with the project creator.
+- **[Author LinkedIn](www.linkedin.com/in/sandile-yaze-555066223)** - Connect with the project creator.
 
 ## Installation
 
