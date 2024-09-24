@@ -63,4 +63,4 @@ Contributions are welcome! If you'd like to make improvements to this project, p
 
 ## Licensing
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://fossa.com/blog/open-source-licenses-101-mit-license/) file for details.
